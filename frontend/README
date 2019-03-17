@@ -1,0 +1,14 @@
+observações: 
+
+plugin: mini-css-extract-plugin: conflita com style-loader
+dependencia: cross-env: seta variavel de ambiente NODE_ENV para production nos 3 sistemas operacionais
+dependencia: optimize-css-assets-webpack-plugin e uglifyjs-webpack-plugin: serve para minificar os arquivos css.
+dependencia: file-loader: carrega arquivos de imagens
+dependencia: webpack-dev-server: rodar como servidor em modo devel na porta 8080
+
+execução: npm run build: modo production
+execução npm start: modo development
+
+
+conclusões: Projeto Configurado com todas as dependencias 0 Vulnerabilidades 2019
+data: 24/02/2019
